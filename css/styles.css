@@ -27,8 +27,8 @@ body{
 /* MAIN CONTAINER */
 
 .container{
-    width: 90vw;
-    height: 90vh;
+    max-width: 90vw;
+    max-height: 85vh;
     border: 1px solid white;
     margin: 2rem auto;
 }
@@ -52,7 +52,7 @@ body{
 
 #main{
     width: 90vw;
-    height: 90vh;
+    height: 80vh;
     text-align: center;
 }
 
@@ -79,7 +79,7 @@ h1{
 }
 
 span{
-    width: 80vw;
+    width: 70vw;
     margin: 0 auto;
     text-align: center;
     font-family: como, sans-serif;
