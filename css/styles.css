@@ -82,5 +82,7 @@ span{
     width: 80vw;
     margin: 0 auto;
     text-align: center;
-    
+    font-family: como, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
