@@ -72,126 +72,68 @@ h1{
   
 }
 
-.learning-p{
+.positive-p{
     margin: 0 auto 2rem auto;
     text-align: center;
+    font-size: 0.8rem;
+    padding: 0 1rem;
 }
 
-.categories{
+.negative-p{
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0 1rem;
+}
 
+hr{
+    color: white;
+    max-width: 5rem;
+    margin: 1rem auto;
+}
+
+.practice-arena{
     width: 90vw;
-    min-height: 60vh;
+    min-height: 25vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;    
+    justify-content: space-around;
 }
 
-/* THREE ADJECTIVES */
-
-.three-adjectives{
-    font-size: 1.5rem;
+.sentence-to-modify{
+    display: block;
+    margin: 1rem auto 0 auto;
 }
 
-/* FORMS */
-
-.adjForm1{
-    display: none;
-    flex-direction: column;
+.ikke-vel-btns{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    max-width: 70vw;
-    min-height: 40vh;
-    margin: 0 auto;
-    color: white;
-  }
-  
-  .adjForm2{
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    max-width: 70vw;
-    min-height: 40vh;
-    margin: 0 auto;
-    color: white;
-  }
-  
-  .adjForm3{
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    max-width: 70vw;
-    min-height: 40vh;
-    margin: 0 auto;
-    color: white;
-  }
+    min-width: 80vw;
+    margin: 2.5rem auto 0 auto;
+}
 
-  /* INPUTS */
-  
- .form1pos3 {
-  color: white;
-  background-color: transparent;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-  border: none;
-  border-bottom: 1px solid white;
-  text-align: center;
-  font-family: como, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  text-align: center;
-  }
-
-  .form2pos2{
-    color: white;
+.ikke-btn{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
     background-color: transparent;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: white;
     border: none;
-    border-bottom: 1px solid white;
-    text-align: center;
-    font-family: como, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
   }
 
-  .form3pos1{
-    color: white;
+  .vel-btn{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
     background-color: transparent;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: white;
     border: none;
-    border-bottom: 1px solid white;
-    text-align: center;
-    font-family: como, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
   }
 
-  ::placeholder{
-      color: #F7F5F2;
-      opacity: 1;
-  }
-  
-  /* LABELS */
-  
-  label {
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    color: white;
-  }
 
-  /* SUBMIT BTN */ 
 
-  .submit-btn{
-    border: 2px solid white;
-    font-size: 0.5rem;
-    background-color: transparent;
-    color: white;
-    opacity: 100%;
-    margin: 3rem auto 0rem auto;
-    padding: 0.7rem 2rem;
-  }
+
 
   /* LOWER BUTTONS */
 
