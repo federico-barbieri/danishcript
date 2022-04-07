@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited{
+    color: inherit;
+}
+
+body{
+    background-color: #C60C30;
+    color: white;
+    font-family: como, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+/* MAIN CONTAINER */
+
+.container{
+    max-width: 90vw;
+    max-height: 85vh;
+    border: 1px solid white;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+
+/* HEADER */
+
+.home-btn{
+    border: 1px solid white;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+    opacity: 50%;
+    font-family: como, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1.3rem auto 0 auto;
+    padding: 0.7rem 2rem;
+}
+
+/* MAIN */
+
+#main{
+    width: 90vw;
+    height: 80vh;
+    text-align: center;
+    font-family: como, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+h1{
+    font-family: como, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 3rem auto 1rem auto;
+    height: auto;
+}
+
+.learning-p{
+    margin: 0 auto 3rem auto;
+    text-align: center;
+}
+
+.categories{
+
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+span{
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+    font-family: como, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* THREE ADJECTIVES */
+
+.three-adjectives{
+    font-size: 1.5rem;
+}
+
+/* FORMS */
+
+.adjForm1{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 70vw;
+    min-height: 35vh;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .adjForm2{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 70vw;
+    min-height: 35vh;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .adjForm3{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 70vw;
+    min-height: 35vh;
+    margin: 0 auto;
+    color: white;
+  }
+
+  /* INPUTS */
+  
+ .form1pos3 {
+  color: white;
+  background-color: transparent;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-bottom: 1px solid white;
+  text-align: center;
+  font-family: como, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  }
+
+  .form2pos2{
+    color: white;
+    background-color: transparent;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-family: como, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .form3pos1{
+    color: white;
+    background-color: transparent;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-family: como, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+  }
+
+  ::placeholder{
+      color: #F7F5F2;
+      opacity: 1;
+  }
+  
+  /* LABELS */
+  
+  label {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: white;
+  }
+
+  /* SUBMIT BTN */ 
+
+  .submit-btn{
+    border: 2px solid white;
+    font-size: 0.5rem;
+    background-color: transparent;
+    color: white;
+    opacity: 100%;
+    margin: 3rem auto 1rem auto;
+    padding: 0.7rem 2rem;
+  }
+
+  hr{
+      width: 25vw;
+      margin: 1.5rem auto;
+      color: white;
+  }
+
+  /* LOWER BUTTONS */
+
+  .btns{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 80vw;
+      margin: 3rem auto 0 auto;
+  }
+
+  .back-btn{
+    font-size: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .next-section-btn{
+    font-size: 0.5rem;
+    padding: 0.7rem 0.9rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
