@@ -38,7 +38,7 @@ body{
 /* HEADER */
 
 .home-btn{
-    border: 1px solid white;
+    border: none;
     font-size: 1.2rem;
     background-color: transparent;
     color: white;
@@ -193,14 +193,8 @@ span{
     background-color: transparent;
     color: white;
     opacity: 100%;
-    margin: 3rem auto 1rem auto;
+    margin: 3rem auto 0rem auto;
     padding: 0.7rem 2rem;
-  }
-
-  hr{
-      width: 25vw;
-      margin: 1.5rem auto;
-      color: white;
   }
 
   /* LOWER BUTTONS */
@@ -211,21 +205,41 @@ span{
       align-items: center;
       justify-content: space-between;
       max-width: 80vw;
-      margin: 3rem auto 0 auto;
+      margin: 2.5rem auto 0 auto;
+  }
+
+  /* BACK DIV */ 
+
+  .back-btn-div{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: baseline;
+      color: white;
   }
 
   .back-btn{
     font-size: 0.5rem;
-    padding: 0.7rem 1.5rem;
+    padding: none;
     background-color: transparent;
     color: white;
-    border: 1px solid white;
+    border: none;
+  }
+
+  /* NEXT DIV */
+
+  .next-section-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    color: white;
   }
 
   .next-section-btn{
     font-size: 0.5rem;
-    padding: 0.7rem 0.9rem;
+    padding: none;
     background-color: transparent;
     color: white;
-    border: 1px solid white;
+    border: none;
   }
