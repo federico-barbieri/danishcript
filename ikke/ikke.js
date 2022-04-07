@@ -39,7 +39,9 @@ spanToModify.innerHTML = sentences[chosenNum];
 // the whole process starts again
 
 function nextSentence(){
-    let chosenNum = pickSentence();
+    chosenNum;
+    pickSentence();
+    chosenNum = pickSentence();
     spanToModify.innerHTML = sentences[chosenNum];
     ikkeBtn.style.border = "none";
     velBtn.style.border = "none";
@@ -60,9 +62,11 @@ ikkeBtn.addEventListener('click', () => {
 
     if (sentences[chosenNum].includes(ikke)){
         ikkeBtn.style.border = "1px solid red";
+        console.log(sentences[chosenNum]);
         setTimeout(nextSentence, 2000);
     } else{
         ikkeBtn.style.border = "1px solid green";
+        console.log(sentences[chosenNum]);
         setTimeout(nextSentence, 2000);
     }
    
@@ -76,9 +80,11 @@ velBtn.addEventListener('click', () => {
 
     if (sentences[chosenNum].includes(ikke)){
         velBtn.style.border = "1px solid green";
+        console.log(sentences[chosenNum]);
         setTimeout(nextSentence, 2000);
     } else{
         velBtn.style.border = "1px solid red";
+        console.log(sentences[chosenNum]);
         setTimeout(nextSentence, 2000);
     }   
 })
