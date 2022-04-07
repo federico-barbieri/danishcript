@@ -1,6 +1,7 @@
 // create an array with all the sentences 
 
-let sentences = ["Du kommer fra Tyskland,", "Marie taler ikke dansk,",
+let sentences = 
+    ["Du kommer fra Tyskland,", "Marie taler ikke dansk,",
     "Du cykler ikke på arbejde,",
     "Du arbejder altid om lørdagen,",
     "Han underviser  i engelsk,",
@@ -9,14 +10,15 @@ let sentences = ["Du kommer fra Tyskland,", "Marie taler ikke dansk,",
     "Norreport ligger ikke på Østerbro,",
     "Du har ikke fødselsdag på fredag,",
     "Du har tre hunde,", "Hun hedder Zina,",
-    "Deres kat er ikke stor", "Dit hus er ikke gammel,",
-    "Din bror kan godt lide is", "Bananas er ikke gode for dig",
-    "Det regner altid i Danmark", "Du foretrækker Netflix end gå i biografen",
-    "Din mor er ikke en arkitekt", "Argentina er ikke nær Danmark",
-    "Der er ikke noget bedre end at drikke en øl på stranden",
-    "Du har flere bøger", "Hun spiser ikke kød",
-    "Han spiller ikke fodbold", "Du kan laver mad",
-    "De kigger efter mine børn"
+    "Deres kat er ikke stor,", "Dit hus er ikke gammel,",
+    "Din bror kan godt lide is,", "Bananas er ikke gode for dig,",
+    "Det regner altid i Danmark,", "Du foretrækker Netflix end gå i biografen,",
+    "Din mor er ikke en arkitekt,", "Argentina er ikke nær Danmark,",
+    "Der er ikke noget bedre end at drikke en øl på stranden,",
+    "Du har flere bøger,", "Hun spiser ikke kød,",
+    "Han spiller ikke fodbold,", "Du kan laver mad,",
+    "De kigger efter dine børn,", "Børnene sover ikke for meget tid,",
+    "Hans far arbejder på weekenden,", "Du kan spille guitaren,"
 ]
 
 

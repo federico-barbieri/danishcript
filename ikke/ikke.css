@@ -97,6 +97,7 @@ hr{
 .sentence-to-modify{
     display: block;
     margin: 1rem auto 0 auto;
+    max-width: 60vw;
 }
 
 .ikke-vel-btns{
