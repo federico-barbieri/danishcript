@@ -8,7 +8,16 @@ let sentences = ["Du kommer fra Tyskland,", "Marie taler ikke dansk,",
     "Han er single,",
     "Norreport ligger ikke på Østerbro,",
     "Du har ikke fødselsdag på fredag,",
-    "Du har tre hunde,"]
+    "Du har tre hunde,", "Hun hedder Zina,",
+    "Deres kat er ikke stor", "Dit hus er ikke gammel,",
+    "Din bror kan godt lide is", "Bananas er ikke gode for dig",
+    "Det regner altid i Danmark", "Du foretrækker Netflix end gå i biografen",
+    "Din mor er ikke en arkitekt", "Argentina er ikke nær Danmark",
+    "Der er ikke noget bedre end at drikke en øl på stranden",
+    "Du har flere bøger", "Hun spiser ikke kød",
+    "Han spiller ikke fodbold", "Du kan laver mad",
+    "De kigger efter mine børn"
+]
 
 
 // store the keyword "ikke" in a variable
@@ -62,12 +71,12 @@ ikkeBtn.addEventListener('click', () => {
 
     if (sentences[chosenNum].includes(ikke)){
         ikkeBtn.style.border = "1px solid red";
-        console.log(sentences[chosenNum]);
-        setTimeout(nextSentence, 2000);
+        
+        setTimeout(nextSentence, 1500);
     } else{
         ikkeBtn.style.border = "1px solid green";
-        console.log(sentences[chosenNum]);
-        setTimeout(nextSentence, 2000);
+        
+        setTimeout(nextSentence, 1500);
     }
    
 })
@@ -80,12 +89,12 @@ velBtn.addEventListener('click', () => {
 
     if (sentences[chosenNum].includes(ikke)){
         velBtn.style.border = "1px solid green";
-        console.log(sentences[chosenNum]);
-        setTimeout(nextSentence, 2000);
+        
+        setTimeout(nextSentence, 1500);
     } else{
         velBtn.style.border = "1px solid red";
-        console.log(sentences[chosenNum]);
-        setTimeout(nextSentence, 2000);
+        
+        setTimeout(nextSentence, 1500);
     }   
 })
 
