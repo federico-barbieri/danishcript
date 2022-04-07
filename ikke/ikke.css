@@ -39,17 +39,10 @@ body{
 
 /* HEADER */
 
-.home-btn{
-    border: none;
-    font-size: 1.2rem;
-    background-color: transparent;
+.fa-house{
     color: white;
-    opacity: 50%;
-    font-family: como, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    padding: 0.7rem 2rem;
+    opacity: 70%;
+    margin-top: 1rem; 
 }
 
 /* MAIN */
@@ -116,7 +109,7 @@ hr{
 }
 
 .ikke-btn{
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 0.5rem 1rem;
     background-color: transparent;
     color: white;
@@ -124,7 +117,7 @@ hr{
   }
 
   .vel-btn{
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 0.5rem 1rem;
     background-color: transparent;
     color: white;
