@@ -176,7 +176,27 @@ h1{
 
   /* SUBMIT BTN */ 
 
-  .submit-btn{
+  .submit-btn1{
+    border: 2px solid white;
+    font-size: 0.5rem;
+    background-color: transparent;
+    color: white;
+    opacity: 100%;
+    margin: 3rem auto 0rem auto;
+    padding: 0.7rem 2rem;
+  }
+
+  .submit-btn2{
+    border: 2px solid white;
+    font-size: 0.5rem;
+    background-color: transparent;
+    color: white;
+    opacity: 100%;
+    margin: 3rem auto 0rem auto;
+    padding: 0.7rem 2rem;
+  }
+
+  .submit-btn3{
     border: 2px solid white;
     font-size: 0.5rem;
     background-color: transparent;

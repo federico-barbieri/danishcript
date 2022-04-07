@@ -25,11 +25,17 @@ const selectForm = () => {
 
   if (randomNum == 1){
     form1.style.display = "flex";
+    form2.style.display = "none";
+    form3.style.display = "none";
     randomForm = 1;
   } else if (randomNum == 2){
+    form1.style.display = "none";
     form2.style.display = "flex";
+    form3.style.display = "none";
     randomForm = 2;
   } else {
+    form1.style.display = "none";
+    form2.style.display = "none";
     form3.style.display = "flex";
     randomForm = 3;
   }
@@ -83,3 +89,99 @@ const placeElementsInForm = () => {
 }
 
 placeElementsInForm();
+
+
+// grab user inputs value 
+
+let inputForm1 = document.querySelector(".form1pos3");
+
+let inputForm2 = document.querySelector(".form2pos2");
+
+let inputForm3 = document.querySelector(".form3pos1");
+
+
+// a function to show the next array of adjectives 
+// This is the end, but it's here so it is read before the 
+// event listener
+
+function newAdjectives(){
+
+  // this function picks a random number to choose which form 
+  // will be displayed. It also adds the adjectives to the labels
+  // of the form 
+  placeElementsInForm();
+  
+  
+  // erase the previous value of the input
+  // and turn the border bottom white again 
+  inputForm1.value = "";
+  inputForm1.style.borderBottom = "1px solid white";
+  inputForm2.value = "";
+  inputForm2.style.borderBottom = "1px solid white";
+  inputForm3.value = "";
+  inputForm3.style.borderBottom = "1px solid white";
+  }
+//
+
+// target the submit button and match user input with array
+
+let submitBtn1 = document.querySelector('.submit-btn1');
+let submitBtn2 = document.querySelector('.submit-btn2');
+let submitBtn3 = document.querySelector('.submit-btn3');
+
+
+// if form 1 is displayed
+
+submitBtn1.addEventListener('click', (e) => {
+
+  e.preventDefault();
+
+  if (randomForm == 1 && inputForm1.value.toLowerCase().trim("") === selectedArray[2]){
+    inputForm1.style.borderBottom = "2px solid green";
+    
+    setTimeout(newAdjectives, 900);
+
+  } else{
+    inputForm1.style.borderBottom = "2px solid red";
+
+    setTimeout(newAdjectives, 900);
+  }
+})
+
+
+// if form 2 is displayed
+
+submitBtn2.addEventListener('click', (e) => {
+
+  e.preventDefault();
+
+  if (randomForm == 2 && inputForm2.value.toLowerCase().trim("") === selectedArray[1]){
+    inputForm2.style.borderBottom = "2px solid green";
+
+    setTimeout(newAdjectives, 900);
+
+  } else{
+    inputForm2.style.borderBottom = "2px solid red";
+    
+    setTimeout(newAdjectives, 900);
+  }
+
+})
+
+// if form 3 is displayed
+
+submitBtn3.addEventListener('click', (e) => {
+
+  e.preventDefault();
+
+  if (randomForm == 3 && inputForm3.value.toLowerCase().trim("") === selectedArray[0]){
+    inputForm3.style.borderBottom = "2px solid green";
+
+    setTimeout(newAdjectives, 900);
+
+  } else{
+    inputForm3.style.borderBottom = "2px solid red";
+
+    setTimeout(newAdjectives, 900);
+  }
+})
