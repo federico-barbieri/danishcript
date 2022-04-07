@@ -197,15 +197,6 @@ h1{
       margin: 2.5rem auto 0 auto;
   }
 
-  /* BACK DIV */ 
-
-  .back-btn-div{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: baseline;
-      color: white;
-  }
 
   .back-btn{
     font-size: 0.5rem;
@@ -215,15 +206,6 @@ h1{
     border: none;
   }
 
-  /* NEXT DIV */
-
-  .next-section-div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: baseline;
-    color: white;
-  }
 
   .next-section-btn{
     font-size: 0.5rem;

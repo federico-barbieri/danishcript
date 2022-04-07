@@ -74,11 +74,11 @@ ikkeBtn.addEventListener('click', () => {
     if (sentences[chosenNum].includes(ikke)){
         ikkeBtn.style.border = "1px solid red";
         
-        setTimeout(nextSentence, 1500);
+        setTimeout(nextSentence, 900);
     } else{
         ikkeBtn.style.border = "1px solid green";
         
-        setTimeout(nextSentence, 1500);
+        setTimeout(nextSentence, 900);
     }
    
 })
@@ -92,11 +92,11 @@ velBtn.addEventListener('click', () => {
     if (sentences[chosenNum].includes(ikke)){
         velBtn.style.border = "1px solid green";
         
-        setTimeout(nextSentence, 1500);
+        setTimeout(nextSentence, 900);
     } else{
         velBtn.style.border = "1px solid red";
         
-        setTimeout(nextSentence, 1500);
+        setTimeout(nextSentence, 900);
     }   
 })
 
