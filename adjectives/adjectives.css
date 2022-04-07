@@ -134,6 +134,7 @@ h1{
   color: white;
   background-color: transparent;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: none;
   border-bottom: 1px solid white;
   text-align: center;
   font-family: como, sans-serif;
@@ -146,6 +147,7 @@ h1{
     color: white;
     background-color: transparent;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: none;
     border-bottom: 1px solid white;
     text-align: center;
     font-family: como, sans-serif;
@@ -158,6 +160,7 @@ h1{
     color: white;
     background-color: transparent;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: none;
     border-bottom: 1px solid white;
     text-align: center;
     font-family: como, sans-serif;
