@@ -36,13 +36,28 @@ body{
     margin: 2rem auto;
 }
 
-
 /* HEADER */
 
-.fa-house{
-    color: white;
-    opacity: 70%;
-    margin-top: 1rem; 
+header {
+  width: 100%;
+  height: 6rem;
+}
+
+.home-btn{
+  border: 1px solid white;
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  opacity: 60%;
+  font-family: como, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  display: block;
+  margin: 1rem auto 0 auto;
+}
+
+.home-btn:hover{
+  cursor: pointer;
 }
 
 /* MAIN */
@@ -214,23 +229,74 @@ h1{
       align-items: center;
       justify-content: space-between;
       max-width: 80vw;
-      margin: 2.5rem auto 0 auto;
+      margin: 4rem auto 0 auto;
+      border-top: 1px solid white;
   }
 
 
   .back-btn{
     font-size: 0.5rem;
     padding-bottom: 0.55rem;
+    padding-top: 3rem;
     background-color: transparent;
     color: white;
     border: none;
   }
 
+  .back-btn:hover{
+    cursor: pointer;
+  }
+
 
   .next-section-btn{
     font-size: 0.5rem;
-    padding-bottom: 0.55rem;
+    padding-top: 3rem;
     background-color: transparent;
     color: white;
     border: none;
+  }
+
+  .next-section-btn:hover{
+    cursor: pointer;
+  }
+
+
+
+  @media only screen and (min-width: 500px){
+    h1{
+      font-family: como, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      margin: 0rem auto 1rem auto;
+    }
+  
+    .submit-btn1{
+      font-size: 1rem;
+    }
+
+    .submit-btn2{
+      font-size: 1rem;
+    }
+
+    .submit-btn3{
+      font-size: 1rem;
+    }
+
+    .back-btn{
+      font-size: 0.8rem;
+      padding-top: 1rem;
+    }
+  
+  
+    .next-section-btn{
+      font-size: 0.8rem;
+      padding-top: 1rem;
+    }
+  
+  }
+
+
+  @media only screen and (min-width: 1000px){
+
+
   }

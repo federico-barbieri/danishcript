@@ -39,11 +39,27 @@ body{
 
 /* HEADER */
 
-.fa-house{
+header {
+    width: 100%;
+    height: 3rem;
+  }
+  
+  .home-btn{
+    border: 1px solid white;
+    font-size: 1rem;
+    background-color: transparent;
     color: white;
-    opacity: 70%;
-    margin-top: 1rem; 
-}
+    opacity: 60%;
+    font-family: como, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display: block;
+    margin: 1rem auto 0 auto;
+  }
+  
+  .home-btn:hover{
+    cursor: pointer;
+  }
 
 /* MAIN */
 
@@ -96,32 +112,90 @@ hr{
     justify-content: space-around;
 }
 
+span:hover{
+    cursor: pointer;
+}
+
 
   /* LOWER BUTTONS */
 
   .btns{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      max-width: 80vw;
-      margin: 1.2rem auto 0 auto;
-  }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    margin: 4rem auto 0 auto;
+    
+}
 
 
-  .back-btn{
-    font-size: 0.5rem;
-    padding-bottom: 0.55rem;
-    background-color: transparent;
-    color: white;
-    border: none;
-  }
+.back-btn{
+  font-size: 0.5rem;
+  padding-bottom: 0.55rem;
+  padding-top: 1rem;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.back-btn:hover{
+  cursor: pointer;
+}
+
+.next-section-btn{
+  font-size: 0.5rem;
+  padding-top: 3rem;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.next-section-btn:hover{
+  cursor: pointer;
+}
 
 
-  .next-section-btn{
-    font-size: 0.5rem;
-    padding-bottom: 0.55rem;
-    background-color: transparent;
-    color: white;
-    border: none;
-  }
+@media only screen and (min-width: 500px){
+
+    .back-btn{
+        font-size: 0.8rem;
+        padding-top: 3rem;
+      }
+    
+    
+      .next-section-btn{
+        font-size: 0.8rem;
+        padding-top: 1.5rem;
+      }
+
+    }
+
+
+@media only screen and (min-width: 1000px){
+
+    .back-btn{
+        font-size: 0.8rem;
+        padding-top: 3rem;
+        border-top: 1px solid white;
+      }
+    
+    
+      .next-section-btn{
+        font-size: 0.8rem;
+        padding-top: 1rem;
+      }
+ 
+    .imperativ1-p{
+        font-size: 1rem;
+    }
+
+    .imperativ2-p{
+        font-size: 1rem;
+    }
+
+    .practice-arena{
+        font-size: 1.5rem;
+        min-height: 40vh;
+    }
+}

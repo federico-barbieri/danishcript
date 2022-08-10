@@ -89,8 +89,6 @@
         
         setTimeout(nextNumber, 900);
         
-
-
     } else{
         displayedNumber.style.border = "2px solid red";
         

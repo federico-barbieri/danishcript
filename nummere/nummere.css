@@ -39,11 +39,27 @@ body{
 
 /* HEADER */
 
-.fa-house{
+header {
+    width: 100%;
+    height: 3rem;
+  }
+  
+  .home-btn{
+    border: 1px solid white;
+    font-size: 1rem;
+    background-color: transparent;
     color: white;
-    opacity: 70%;
-    margin-top: 1rem; 
-}
+    opacity: 60%;
+    font-family: como, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display: block;
+    margin: 1rem auto 0 auto;
+  }
+  
+  .home-btn:hover{
+    cursor: pointer;
+  }
 
 /* MAIN */
 
@@ -61,12 +77,12 @@ h1{
     font-family: como, sans-serif;
     font-weight: 600;
     font-style: normal;
-    margin: 1rem auto 1rem auto;
+    margin: 0rem auto 1rem auto;
   
 }
 
 .number-p{
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 1.5rem auto;
     text-align: center;
     font-size: 0.8rem;
     padding: 0 1rem;
@@ -124,35 +140,96 @@ h1{
     padding: 0.7rem 2rem;
 }
 
+  /* LOWER BUTTONS */
 
+  .btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: 1rem auto 0 auto;
+    
+}
+
+
+.back-btn{
+  font-size: 0.5rem;
+  padding-bottom: 0.55rem;
+  padding-top: 3rem;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.back-btn:hover{
+  cursor: pointer;
+}
+
+.next-section-btn{
+  font-size: 0.5rem;
+  padding-top: 3rem;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.next-section-btn:hover{
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 500px){
+
+    .back-btn{
+        font-size: 0.8rem;
+        padding-top: 2rem;
+      }
+    
+    
+      .next-section-btn{
+        font-size: 0.8rem;
+        padding-top: 2rem;
+      }
+
+    }
+
+@media only screen and (min-width: 1000px){
+
+    /* MAIN CONTAINER */
+
+.container{
+    max-width: 90vw;
+    max-height: 100vh;
+    border: 1px solid white;
+    margin: 2rem auto;
+}
+
+    h1{
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+
+    .number-p{
+        font-size: 1.5rem;
+    }
+
+    .submit-btn{
+        font-size: 1rem;
+    }
 
 
 
   /* LOWER BUTTONS */
 
   .btns{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      max-width: 80vw;
-      margin: 2.5rem auto 0 auto;
-  }
-
-
-  .back-btn{
-    font-size: 0.5rem;
-    padding-bottom: 0.55rem;
-    background-color: transparent;
-    color: white;
-    border: none;
-  }
-
-
-  .next-section-btn{
-    font-size: 0.5rem;
-    padding-bottom: 0.55rem;
-    background-color: transparent;
-    color: white;
-    border: none;
-  }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: 6rem auto 0 auto;
+    font-size: 1.5rem;
+    border-top: 1px solid white;
+}
+}

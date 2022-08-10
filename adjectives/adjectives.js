@@ -9,7 +9,7 @@ let positiveAdj = [["sød", "sødt", "søde"], ["ny", "nyt", "nye"], ["fed", "fe
                     ["spændende", "spændende", "spændende"], ["hård", "hårdt", "hårde"], ["lækker", "lækkert", "lækre"],
                     ["vild", "vildt", "vilde"]]
 
-//   æ ø å
+//   weird letters æ ø å
 
 //  A FUNCTION THAT SELECTS WHICH FORM WILL BE DISPLAYED
 
