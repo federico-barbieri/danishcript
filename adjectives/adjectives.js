@@ -137,12 +137,12 @@ submitBtn1.addEventListener('click', (e) => {
   e.preventDefault();
 
   if (randomForm == 1 && inputForm1.value.toLowerCase().trim("") === selectedArray[2]){
-    inputForm1.style.borderBottom = "2px solid green";
+    inputForm1.style.borderBottom = "3px solid green";
     
     setTimeout(newAdjectives, 900);
 
   } else{
-    inputForm1.style.borderBottom = "2px solid red";
+    inputForm1.style.borderBottom = "3px solid red";
 
     setTimeout(newAdjectives, 900);
   }
@@ -156,12 +156,12 @@ submitBtn2.addEventListener('click', (e) => {
   e.preventDefault();
 
   if (randomForm == 2 && inputForm2.value.toLowerCase().trim("") === selectedArray[1]){
-    inputForm2.style.borderBottom = "2px solid green";
+    inputForm2.style.borderBottom = "3px solid green";
 
     setTimeout(newAdjectives, 900);
 
   } else{
-    inputForm2.style.borderBottom = "2px solid red";
+    inputForm2.style.borderBottom = "3px solid red";
     
     setTimeout(newAdjectives, 900);
   }
@@ -175,12 +175,12 @@ submitBtn3.addEventListener('click', (e) => {
   e.preventDefault();
 
   if (randomForm == 3 && inputForm3.value.toLowerCase().trim("") === selectedArray[0]){
-    inputForm3.style.borderBottom = "2px solid green";
+    inputForm3.style.borderBottom = "3px solid green";
 
     setTimeout(newAdjectives, 900);
 
   } else{
-    inputForm3.style.borderBottom = "2px solid red";
+    inputForm3.style.borderBottom = "3px solid red";
 
     setTimeout(newAdjectives, 900);
   }
