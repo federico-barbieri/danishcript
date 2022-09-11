@@ -273,8 +273,8 @@ h1{
       max-width: 90vw;
       max-height: 80vh;
       border: none;
-      margin: 2rem auto 0 auto;
-      filter: drop-shadow(4px 4px 6px var(--black));
+      margin: 5rem auto 0 auto;
+      
 
     }
     #main{
