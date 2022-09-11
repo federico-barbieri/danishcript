@@ -86,8 +86,9 @@ h1{
 }
 
 .cript{
-    text-decoration: underline var(--yellow);
+    background-color: var(--yellow);
     font-size: 2rem;
+    color: var(--black);
 }
 
 .learning-p{
