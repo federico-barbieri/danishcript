@@ -39,9 +39,11 @@ body{
 
     max-width: 100vw;
     max-height: auto;
-    
     margin: 2rem auto;
     padding: 1rem;
+    font-family: poppins, sans-serif;
+    font-weight: 400;   
+    font-style: normal;
 }
 
 
@@ -58,8 +60,8 @@ header {
     background-color: transparent;
     color: white;
     opacity: 60%;
-    font-family: como, sans-serif;
-    font-weight: 600;
+    font-family: poppins, sans-serif;
+    font-weight: 400;   
     font-style: normal;
     display: block;
     margin: 1rem auto 0 auto;
@@ -76,8 +78,8 @@ header {
 }
 
 h1{
-    font-family: como, sans-serif;
-    font-weight: 600;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
     font-style: normal;
     margin: 0rem auto 1rem auto;
     font-size: 2rem;
@@ -93,9 +95,17 @@ h1{
     text-align: center;
 }
 
+.categories{
+    width: 80vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem auto;
+}
+
 
 .outer-border{
-    max-width: 80vw;
+    width: 100%;
     height: 20vh;
     margin: 2rem auto;
     border-radius: 1rem;
@@ -106,43 +116,71 @@ h1{
     background: rgb(198,12,48);
     background: linear-gradient(100deg, rgba(198,12,48,1) 85%, rgba(247,223,30,1) 100%);
     filter: drop-shadow(4px 4px 6px black);
-    transition: all 2s ease-in;
+    transition: all 1s;
 }
 
 .outer-border:hover{
-    background: rgba(247,223,30,1);
+    filter: drop-shadow(4px 4px 6px rgba(247,223,30,1));
     cursor: pointer;
-    color: var(--black);
+    
 
 }
 
 
-/* MEDIA QUERY 500PX */
-
-@media only screen and (min-width: 500px){
-    span{
-        font-size: 1.5rem;
-    }
-}
-
-
-/* MEDIA QUERY 1000PX */
 
 @media only screen and (min-width: 1000px){
-    .categories{
+    .container{
+        max-width: 100vw;
+        max-height: auto;
+        margin: 1rem auto 0 auto;
+        padding: 1rem;
+        font-family: poppins, sans-serif;
+        font-weight: 400;   
+        font-style: normal;
+        
+    }
+    #main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem auto 0 auto;
+        height: 100vh;
+    }
 
-        width: 90vw;
-        height: 50vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;   
+    .intro{
+        width: 30%;
     }
 
     h1{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .learning-p{
         font-size: 1.5rem;
     }
+
+    .categories{
+        width: 70%;
+        height: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-left: 1px solid white;
+    }
+
+    .outer-border{
+        
+        width: 70%;
+        height: 15vh;
+        margin: 2rem auto;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgb(198,12,48);
+        background: linear-gradient(100deg, rgba(198,12,48,1) 85%, rgba(247,223,30,1) 100%);
+        filter: drop-shadow(4px 4px 6px black);
+    }
+
 }
