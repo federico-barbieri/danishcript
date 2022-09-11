@@ -37,45 +37,28 @@ body{
 
 .container{
     max-width: 90vw;
-    max-height: 90vh;
-    border: 1px solid var(--yellow);
-    margin: 2rem auto;
-}
-
-/* HEADER */
-
-header {
-  width: 100%;
-  height: 6rem;
-}
-
-.home-btn{
-  border: 1px solid white;
-  font-size: 1rem;
-  background-color: transparent;
-  color: var(--white);
-  opacity: 60%;
-  font-family: poppins, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  display: block;
-  margin: 1rem auto 0 auto;
-}
-
-.home-btn:hover{
-  cursor: pointer;
+    max-height: 80vh;
+    margin: 2rem auto 0 auto;
+    background: rgb(198,12,48);
+    background: linear-gradient(100deg, rgba(198,12,48,1) 85%, rgba(247,223,30,1) 100%);
+    filter: drop-shadow(4px 4px 6px black);
+    border-radius: 1rem;
 }
 
 /* MAIN */
 
 #main{
     width: 90vw;
-    height: 90vh;
+    height: 80vh;
     text-align: center;
     font-family: poppins, sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
@@ -90,16 +73,6 @@ h1{
     margin: 0 auto 2rem auto;
     text-align: center;
     padding: 0 1rem;
-}
-
-.categories{
-
-    width: 90vw;
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;    
 }
 
 /* THREE ADJECTIVES */
@@ -210,6 +183,8 @@ h1{
 
   .submit-btn1:hover{
     cursor: pointer;
+    color: var(--black);
+    background-color: var(--white);
   }
 
   .submit-btn2{
@@ -224,6 +199,8 @@ h1{
 
   .submit-btn2:hover{
     cursor: pointer;
+    color: var(--black);
+    background-color: var(--white);
   }
 
   .submit-btn3{
@@ -238,6 +215,8 @@ h1{
 
   .submit-btn3:hover{
     cursor: pointer;
+    color: var(--black);
+    background-color: var(--white);
   }
 
   /* LOWER BUTTONS */
@@ -248,8 +227,8 @@ h1{
       align-items: center;
       justify-content: space-between;
       max-width: 90vw;
-      margin: 4rem auto 0 auto;
-
+      margin: 2rem auto 0 auto;
+      opacity: 80%;
   }
 
 
@@ -290,6 +269,36 @@ h1{
 
   @media only screen and (min-width: 1000px){
     .container{
-      margin: 5 rem auto 0 auto;
+      margin: 3rem auto 0 auto;
+      max-width: 90vw;
+      max-height: 80vh;
+      border: none;
+      margin: 2rem auto 0 auto;
+      filter: drop-shadow(4px 4px 6px var(--black));
+
+    }
+    #main{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      margin: 0 auto;
+    }
+
+    .intro{
+      width: 35%;
+      
+    }
+    h1{
+      font-size: 2rem;
+    }
+    .learning-p{
+      font-size: 1.5rem;
+    }
+
+    .three-adjectives{
+      width: 70%;
+      border-left: 1px solid var(--yellow);
+      font-size: 2rem;
     }
   }
