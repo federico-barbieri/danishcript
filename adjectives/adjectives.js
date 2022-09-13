@@ -132,6 +132,22 @@ let submitBtn3 = document.querySelector('.submit-btn3');
 
 // if form 1 is displayed
 
+form1.addEventListener('submit', (e) => {
+
+  e.preventDefault();
+
+  if (randomForm == 1 && inputForm1.value.toLowerCase().trim("") === selectedArray[2]){
+    inputForm1.style.borderBottom = "3px solid green";
+    
+    setTimeout(newAdjectives, 900);
+
+  } else{
+    inputForm1.style.borderBottom = "3px solid red";
+
+    setTimeout(newAdjectives, 900);
+  }
+})
+
 submitBtn1.addEventListener('click', (e) => {
 
   e.preventDefault();
@@ -151,7 +167,7 @@ submitBtn1.addEventListener('click', (e) => {
 
 // if form 2 is displayed
 
-submitBtn2.addEventListener('click', (e) => {
+form2.addEventListener('submit', (e) => {
 
   e.preventDefault();
 
@@ -168,9 +184,25 @@ submitBtn2.addEventListener('click', (e) => {
 
 })
 
+submitBtn2.addEventListener('click', (e) => {
+
+  e.preventDefault();
+
+  if (randomForm == 1 && inputForm1.value.toLowerCase().trim("") === selectedArray[2]){
+    inputForm1.style.borderBottom = "3px solid green";
+    
+    setTimeout(newAdjectives, 900);
+
+  } else{
+    inputForm1.style.borderBottom = "3px solid red";
+
+    setTimeout(newAdjectives, 900);
+  }
+})
+
 // if form 3 is displayed
 
-submitBtn3.addEventListener('click', (e) => {
+form3.addEventListener('submit', (e) => {
 
   e.preventDefault();
 
@@ -181,6 +213,22 @@ submitBtn3.addEventListener('click', (e) => {
 
   } else{
     inputForm3.style.borderBottom = "3px solid red";
+
+    setTimeout(newAdjectives, 900);
+  }
+})
+
+submitBtn3.addEventListener('click', (e) => {
+
+  e.preventDefault();
+
+  if (randomForm == 1 && inputForm1.value.toLowerCase().trim("") === selectedArray[2]){
+    inputForm1.style.borderBottom = "3px solid green";
+    
+    setTimeout(newAdjectives, 900);
+
+  } else{
+    inputForm1.style.borderBottom = "3px solid red";
 
     setTimeout(newAdjectives, 900);
   }
