@@ -78,6 +78,7 @@
 
   let submitBtn = document.querySelector('.submit-btn');
 
+  let form = document.querySelector('number-form');
   
   submitBtn.addEventListener('click', (e) => {
 
