@@ -123,11 +123,6 @@ function newAdjectives(){
   }
 //
 
-// target the submit button and match user input with array
-
-let submitBtn1 = document.querySelector('.submit-btn1');
-let submitBtn2 = document.querySelector('.submit-btn2');
-let submitBtn3 = document.querySelector('.submit-btn3');
 
 
 // if form 1 is displayed
@@ -148,21 +143,6 @@ form1.addEventListener('submit', (e) => {
   }
 })
 
-submitBtn1.addEventListener('click', (e) => {
-
-  e.preventDefault();
-
-  if (randomForm == 1 && inputForm1.value.toLowerCase().trim("") === selectedArray[2]){
-    inputForm1.style.borderBottom = "3px solid green";
-    
-    setTimeout(newAdjectives, 900);
-
-  } else{
-    inputForm1.style.borderBottom = "3px solid red";
-
-    setTimeout(newAdjectives, 900);
-  }
-})
 
 
 // if form 2 is displayed
@@ -184,21 +164,6 @@ form2.addEventListener('submit', (e) => {
 
 })
 
-submitBtn2.addEventListener('click', (e) => {
-
-  e.preventDefault();
-
-  if (randomForm == 1 && inputForm1.value.toLowerCase().trim("") === selectedArray[2]){
-    inputForm1.style.borderBottom = "3px solid green";
-    
-    setTimeout(newAdjectives, 900);
-
-  } else{
-    inputForm1.style.borderBottom = "3px solid red";
-
-    setTimeout(newAdjectives, 900);
-  }
-})
 
 // if form 3 is displayed
 
@@ -218,18 +183,3 @@ form3.addEventListener('submit', (e) => {
   }
 })
 
-submitBtn3.addEventListener('click', (e) => {
-
-  e.preventDefault();
-
-  if (randomForm == 1 && inputForm1.value.toLowerCase().trim("") === selectedArray[2]){
-    inputForm1.style.borderBottom = "3px solid green";
-    
-    setTimeout(newAdjectives, 900);
-
-  } else{
-    inputForm1.style.borderBottom = "3px solid red";
-
-    setTimeout(newAdjectives, 900);
-  }
-})
